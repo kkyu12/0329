@@ -16,7 +16,7 @@ public class Practice03 {
 			char uniVal = han.charAt(i);
 			char cho = (char) ((uniVal - 0xAC00) / 28 / 21);
 			char jung = (char) ((uniVal - 0xAC00) / 28 % 21);
-			char jong = (char) ((uniVal - 0xAC00) % 28);
+			char jong = (char) ((uniVal - 0xAC00) % 28); 
 			System.out.print(CHO[cho] + JUNG[jung] + JONG[jong]);
 		}
 
